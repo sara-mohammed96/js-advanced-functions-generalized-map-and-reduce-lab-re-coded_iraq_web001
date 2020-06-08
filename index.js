@@ -1,9 +1,9 @@
 function map(array, callback) {
   let newArray = [];
   array.forEach(item => {
-    newArr.push(callback(item))
+    newArray.push(callback(item))
   })
-  return newArr
+  return newArray;
 }
 
 function reduce(arr, callbackFn, startingPoint) {
