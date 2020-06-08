@@ -7,7 +7,7 @@ function map(array, callback) {
 }
 
 function reduce(array, callback, startingPoint) {
-  let newValue = startingPoint ? startingPoint : arr[0]
+  let newArray2 = startingPoint ? startingPoint : arr[0]
   for (let i = startingPoint ? 0 : 1; i < arr.length; i++) {
     newValue = callback(arr[i], newValue)
    
