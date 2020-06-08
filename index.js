@@ -13,8 +13,8 @@ function reduce(array, callback, startingPoint) {
        newArray2=callback(item)
       
     }
-    })
+    )
    
-  }
+  
   return newValue
 }
