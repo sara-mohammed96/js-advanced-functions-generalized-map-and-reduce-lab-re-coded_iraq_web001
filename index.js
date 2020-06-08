@@ -11,5 +11,5 @@ function reduce(array, callback, startingPoint) {
   for (let i = startingPoint ? 0 : 1; i < array.length; i++) {
     newArray2 = callback(array[i], newArray2)
   }
-  return newValue
+  return newArray2
 }
